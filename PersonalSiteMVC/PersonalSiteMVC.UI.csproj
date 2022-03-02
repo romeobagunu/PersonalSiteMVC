@@ -451,6 +451,7 @@
     <Content Include="_Archive\Kelly\assets\vendor\boxicons\fonts\boxicons.ttf" />
     <Content Include="_Archive\Kelly\assets\vendor\boxicons\fonts\boxicons.woff" />
     <Content Include="_Archive\Kelly\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="Views\Shared\_OriginalLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
