@@ -101,6 +101,19 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
+    @RenderSection("scripts", required: false)
+
+    <!-- Highlight Selected Navigation -->
+    <script>
+        $('nav ul li').each(function () {
+
+            if ($(this).find('a').attr('href') == window.location.pathname) {
+                $(this).addClass('active');
+            }
+
+        });
+    </script>
+
 </body>
 
 </html>
