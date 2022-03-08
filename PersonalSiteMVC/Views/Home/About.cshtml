@@ -1,7 +1,89 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About Me";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<main id="main">
+
+    <!-- ======= About Me Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>@ViewBag.Title</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="~/Content/assets/img/profile-pic.jpg" alt="Profile picture of Romeo Bagunu" class="img-thumbnail" style="max-height: 300px">
+                </div>
+                <div class="col-lg-8 p-2 mt-sm-2">
+                    <h3>Romeo Bagunu</h3>
+                    <p class="fst-italic">
+                        Hey there! My name is Romeo, and for the past couple years, I have been working in child care as a Program Director. During that time, I learned key professional skills as a manager and a supervisor, like teamwork, problem solving, and communication. I loved working with kids so much, but I hit a ceiling in my career there.
+                        <br />
+                        In my search for new opportunities, I realized that I could turn a longtime hobby and interest in technology into a passion and a career in that field of work. That's when I was referred to Centriq's Full Stack Web Developer program, where I have deeply enjoyed learning languages in the .NET Stack and immediately applying them to projects. Check out my portfolio to see what I've learned in action!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Section -->
+    <!-- ======= Technical Skills Section ======= -->
+    <section class="pt-0" data-aos="fade-up">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>Summary</h4>
+                    <strong>Front End:</strong> HTML5, JavaScript, jQuery, jQueryUI, CSS3, Responsive/Mobile Web Development,
+                    Bootstrap, ReactJS
+                    <br />
+                    <strong>Middle Tier:</strong> C#.NET, ASP.NET, LINQ, MVC, EF, ASP.NET Web API
+                    <br />
+                    <strong>Back End:</strong> ADO.NET, SQL, SQL Server
+                    <br />
+                    <strong>Tools:</strong> Visual Studio, Visual Studio Code, SSMS
+                </div>
+                <div class="col-lg-8">
+                    <div id="accordion">
+                        <h3>HTML / CSS</h3>
+                        <p>My first experience with Front End development was Alpha, a static web application made entirely from scratch. In that code, I used the basics of HTML and CSS to accomplish very simple page layouts from a provided wireframe. I enjoyed designing the website, drawing much inspiration from Steam and DOTA2. (The concept behind the project was a small company which teaches courses about how to play DOTA.) Through the trial and error of putting this first project together, I learned how to handle the strain of troubleshooting and gained a greater appreciation for development tools learned later in the track.</p>
+                        <h3>C#</h3>
+                        <p>Probably my favorite portion of the track was learning how to create basic Console Apps in VS. The assigned project was to use C# to design a Dungeon game where a player must survive a gauntlet of monster battles to beat the game. The Dragon Dungeon I created uses looping structures to introduce random encounters in a succession of rooms which the player progresses through. Combat methods and custom enemy classes were designed to complement different paths to victory, where the player can choose their Race (Human, Elf, or Dwarf) and different stat upgrades throughout the game. Logic was also incorporated into a mini-boss fight with a Troll and a final boss fight against a Dragon. I would encourage you to take a look at the code; a link to the Github repo is available on my Portfolio page!</p>
+                        <h3>T-SQL (SSMS)</h3>
+                        <p>Much like my experience in learning C#, I found that the logical challenge of querying data was a stimulating and fulfilling task. Prior to learning MVC, we spent a week learning the basics of writing queries and designing databases in SSMS. I am excited to apply this background knowledge in the MVC design architecture!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Technical Skills section -->
+    <!-- ======= Portfolio Hero ======= -->
+    <section class="pt-0">
+        <div class="container">
+            <hr />
+            <div class="p-3">
+                <h2>Full Stack Development!</h2>
+                <p>Don't just take my word for it! You can check out my development skills on my Portfolio page.</p>
+                <a class="btn-hero" href="portfolio.html">Portfolio</a>
+            </div>
+            <hr />
+        </div>
+    </section>
+    <!-- End Portfolio Hero -->
+</main><!-- End #main -->
+
+@section scripts{
+    <!-- JQueryUI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <script>
+        $(function () {
+            $("#accordion").accordion({
+                heightStyle: "content",
+                collapsible: true
+            });
+        });
+    </script>
+}
