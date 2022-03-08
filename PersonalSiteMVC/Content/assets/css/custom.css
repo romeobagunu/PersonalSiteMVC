@@ -28,7 +28,7 @@
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -36,28 +36,16 @@
     right: 0;
 }
 
-@media (max-width: 992px) {
-    #hero:before {
-        content: "";
-        background: rgba(255, 255, 255, 0.8);
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
+#hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #222222;
+}
 
-    #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
-        color: #222222;
-    }
-
-    #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        color: #6f6f6f;
-    }
+#hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #6f6f6f;
 }
 
 #heroImg {
