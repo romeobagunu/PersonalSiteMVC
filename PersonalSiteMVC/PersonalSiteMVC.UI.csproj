@@ -472,6 +472,7 @@
     <Content Include="Views\Shared\_OriginalLayout.cshtml" />
     <Content Include="_Archive\PersonalSiteStatic\assets\Romeo Bagunu Resume.pdf" />
     <Content Include="Views\Home\Resume.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
