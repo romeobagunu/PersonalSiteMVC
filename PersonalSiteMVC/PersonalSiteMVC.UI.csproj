@@ -470,6 +470,7 @@
     <Content Include="_Archive\Kelly\assets\vendor\boxicons\fonts\boxicons.woff2" />
     <Content Include="Views\Shared\_OriginalLayout.cshtml" />
     <Content Include="_Archive\PersonalSiteStatic\assets\Romeo Bagunu Resume.pdf" />
+    <Content Include="Views\Home\Resume.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
