@@ -2,6 +2,10 @@
 *** SITE-WIDE ***
 *****************/
 
+#main {
+    min-height: 100vh;
+}
+
 #header {
     background: #DDD;
     box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
