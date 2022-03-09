@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using PersonalSiteMVC.Models;
+//added for Access to ContactViewModel
+
 namespace PersonalSiteMVC.Controllers
 {
     public class HomeController : Controller
@@ -30,11 +33,17 @@ namespace PersonalSiteMVC.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
+
+        [HttpPost]
+        public ActionResult (ContactViewModel cvm)
+        {
+            return View(cvm);
+        }
+
     }
 }
