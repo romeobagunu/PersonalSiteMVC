@@ -350,4 +350,5 @@ MigrationBackup/
 .ionide/
 
 # Protecting Sensitive Data
-/PersonalSiteMVC.UI/configs
+PersonalSiteMVC/configs
+/AppSecretKeys.config
