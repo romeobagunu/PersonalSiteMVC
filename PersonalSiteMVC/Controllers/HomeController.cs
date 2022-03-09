@@ -42,6 +42,11 @@ namespace PersonalSiteMVC.Controllers
             return View();
         }
 
+        public ActionResult Portfolio()
+        {
+            return View();
+        }
+
         [HttpGet]
         public ActionResult Contact()
         {
