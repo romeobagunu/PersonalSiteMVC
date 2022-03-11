@@ -71,7 +71,6 @@
         </div>
 
     </header><!-- End Header -->
-    
     @* May need to add a wrapper here. *@
     @RenderBody()
 
@@ -107,13 +106,18 @@
     <!-- Template Main JS File -->
     <script src="~/Content/assets/js/main.js"></script>
 
+    <!-- JQueryUI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+
     @RenderSection("scripts", required: false)
 
     <!-- Highlight Selected Navigation -->
     <script>
-        $('nav ul li').each(function () {
+        $('nav ul li a').each(function () {
 
-            if ($(this).find('a').attr('href') == window.location.pathname) {
+            if ($(this).attr('href') == window.location.pathname) {
                 $(this).addClass('active');
             }
 
