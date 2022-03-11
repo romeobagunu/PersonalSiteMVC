@@ -311,6 +311,82 @@ p {
         top: 45%;
     }
 
-    #dragon {
-        max-width: 310px;
+#dragon {
+    max-width: 310px;
+}
+
+/**************
+*** CONTACT ***
+***************/
+
+#contact {
+    min-height: 95vh;
+}
+
+#contact-hero-mini {
+    height: 300px;
+    background-image: url(../img/mini-banner.jpg);
+    background-size: cover;
+}
+
+    #contact-hero-mini .hero-text {
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        top: 45%;
     }
+
+#contact .section-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.contact-entry {
+    margin-top: 1rem;
+    padding: 0 5%;
+}
+
+.contact-entry .form-control {
+    font-weight: 400;
+    color: #222;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+fieldset {
+    text-align: center;
+}
+
+#contact-btn {
+    background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.9), rgba(255, 167, 116, 0.8));
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin-top: 30px;
+}
+
+    #contact-btn:hover {
+        background: linear-gradient(to bottom right, rgba(134, 152, 227, 1), rgba(255, 167, 116, 1));
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+@media (max-height: 720px) {
+    #contact-hero-mini {
+        height: 175px;
+    }
+
+        #contact-hero-mini .hero-text {
+            position: absolute;
+            left: 10%;
+            width: 80%;
+            top: 85px;
+        }
+    #contact-btn {
+        font-size: 1em;
+    }
+}
