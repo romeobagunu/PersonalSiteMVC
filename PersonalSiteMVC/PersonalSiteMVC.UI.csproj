@@ -146,6 +146,7 @@
     <Content Include="Content\assets\img\classmates\Sean.jpg" />
     <Content Include="Content\assets\img\classmates\Zak.jpg" />
     <Content Include="Content\assets\img\favicon.png" />
+    <Content Include="Content\assets\img\mini-banner.jpg" />
     <Content Include="Content\assets\img\portfolio\alpha.jpg" />
     <Content Include="Content\assets\img\portfolio\dragon.jpg" />
     <Content Include="Content\assets\img\profile-pic.jpg" />
