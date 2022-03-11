@@ -27,8 +27,8 @@
     }
 
 .hero-btn {
-    background-color: #34b7a7;
-    color: #EEEEEE;
+    background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.6), rgba(255, 167, 116, 0.6));
+    color: #E9E9E9;
     font-size: 1.3em;
     font-weight: 600;
     padding: 10px 20px;
@@ -37,9 +37,23 @@
 }
 
     .hero-btn:hover {
+        background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.85), rgba(255, 167, 116, 0.85));
         color: #fff;
         border: 1px solid #fff;
     }
+
+
+@media (max-width: 992px) {
+    .hero-text {
+        position: absolute center;
+        top: 50%;
+        left: 1%;
+        width: 98%;
+        margin: auto;
+        padding: 0 !important;
+        text-align: center;
+    }
+}
 
 @media (max-height: 720px) {
     .hero-text {
@@ -53,6 +67,27 @@
     }
 }
 
+.section-title h2 {
+    font-family: "Cormorant Garamond", Garamond;
+}
+
+    .section-title h2::after {
+        width: 40%;
+        height: 3px;
+        position: absolute;
+        left: 30%;
+        background: linear-gradient(to bottom right, #ffa774, #8698e3);
+    }
+
+h3 {
+    font-family: "Cormorant Garamond", Garamond;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 /***********
 *** HOME ***
 ************/
@@ -80,7 +115,7 @@
         left: 1%;
         width: 98%;
         margin: 0;
-        padding: 0!important;
+        padding: 0 !important;
         text-align: center;
     }
 }
@@ -111,19 +146,30 @@
 
 #accordion h3 {
     cursor: pointer;
-    background-color: #DDD;
-    color: #888;
+    background: linear-gradient(to right, #8698e3, #ffa774);
+    color: #EEE;
     padding: 3px;
 }
 
     #accordion h3:hover {
-        color: #000;
+        color: #FFF;
+    }
+
+#portfolio-hero-mini {
+    height: 200px;
+    background-image: url(../img/about-banner.jpg);
+}
+
+    #portfolio-hero-mini .hero-text {
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        top: 25%;
     }
 
 /*****************
 *** CLASSMATES ***
 ******************/
-
 #classmates-section {
     padding: 60px 0;
 }

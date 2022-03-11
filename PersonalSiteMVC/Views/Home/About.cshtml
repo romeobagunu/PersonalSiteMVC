@@ -9,13 +9,12 @@
     </div>
 </div>
 <!-- /end About Hero -->
-
 <!-- ======= About Me Section ======= -->
 <section id="about" class="about">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>@ViewBag.Title</h2>
+            <h2>My Story</h2>
         </div>
 
         <div class="row">
@@ -25,14 +24,19 @@
             <div class="col-lg-8 p-2 mt-sm-2">
                 <h3>Romeo Bagunu</h3>
                 <p class="fst-italic">
-                    Hey there! My name is Romeo, and for the past couple years, I have been working in child care as a Program Director. During that time, I learned key professional skills as a manager and a supervisor, like teamwork, problem solving, and communication. I loved working with kids so much, but I hit a ceiling in my career there.
-                    <br />
-                    In my search for new opportunities, I realized that I could turn a longtime hobby and interest in technology into a passion and a career in that field of work. That's when I was referred to Centriq's Full Stack Web Developer program, where I have deeply enjoyed learning languages in the .NET Stack and immediately applying them to projects. Check out my portfolio to see what I've learned in action!
+                    Hey there! My name is Romeo, and for the past couple years, I was working as a Program Director for Before and After School Child Care in Johnson County. It was an incredible opportunity, and I loved working with kids. The County had a great company culture, and my time there taught me key skills as a manager and supervisor: teamwork, professional communication, and administrative abilities.
+                </p>
+                <p class="fst-italic">
+                    But I knew that I had to find a more long term career. And while I was researching future opportunities, I realized that I could turn my longtime hobbies and interests and volunteer work related to technology and turn them into a passion and career as a programmer!
+                </p>
+                <p class="fst-italic">
+                    That's when I was referred to Centriq's Full Stack Web Developer training, where I am learning how to work with the .NET stack and specifically MVC applications.
                 </p>
             </div>
         </div>
     </div>
-</section><!-- End About Section -->
+</section>
+<!-- End About Section -->
 <!-- ======= Technical Skills Section ======= -->
 <section class="pt-0" data-aos="fade-up">
     <div class="container">
@@ -63,20 +67,16 @@
             </div>
         </div>
     </div>
-</section><!-- End Technical Skills section -->
-<!-- ======= Portfolio Hero ======= -->
-<section class="pt-0">
-    <div class="container">
-        <hr />
-        <div class="p-3">
-            <h2>Full Stack Development!</h2>
-            <p>Don't just take my word for it! You can check out my development skills on my Portfolio page.</p>
-            <a class="btn-hero" href="@Url.Action("Portfolio", "Home")">Portfolio</a>
-        </div>
-        <hr />
-    </div>
 </section>
-<!-- End Portfolio Hero -->
+<!-- End Technical Skills section -->
+<!-- Mini Portfolio Hero Hero -->
+<div class="hero-image" id="portfolio-hero-mini">
+    <div class="hero-text">
+        <h2 class="display-5">Check out my portfolio!</h2>
+        <a class="hero-btn" href="@Url.Action("Portfolio", "Home")">PORTFOLIO</a>
+    </div>
+</div>
+<!-- /end Mini Portfolio Hero -->
 
 @section scripts{
     <script>
