@@ -7,54 +7,87 @@
 }
 
 #header {
-    background: #DDD;
-    box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+    background: rgba(233, 232, 230, 0.7);
     z-index: 997;
     padding: 15px 0;
-}
-
-.btn-hero {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 15px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 40px;
-    border-radius: 50px;
-    color: #fff;
-    background: #34b7a7;
 }
 
 /***********
 *** HOME ***
 ************/
 
-#hero:before {
-    content: "";
-    background: rgba(255, 255, 255, 0.8);
+.hero-image {
+    height: 100vh;
+    background-image: url(../img/welcome-banner.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
     position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+    left: 10%;
+    top: 57%;
 }
 
-#hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-    color: #222222;
+    .hero-text h1 {
+        color: #fff;
+        font-family: "Cormorant Garamond";
+    }
+
+    .hero-text h2 {
+        color: #fff;
+        margin-bottom: 15px;
+        font-family: "Cormorant Garamond";
+        font-style: italic;
+    }
+
+.hero-btn {
+    background-color: #34b7a7;
+    color: #EEEEEE;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-#hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #6f6f6f;
+.hero-btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
 }
 
-#heroImg {
-    display: inline-block;
-    clear: right;
+@media (max-width: 992px) {
+    .hero-image {
+        background-image: url(../img/welcome-banner-centered.jpg);
+    }
+
+    .hero-text {
+        position: absolute center;
+        top: 18%;
+        left: 1%;
+        width: 98%;
+        margin: 0;
+        padding: 0!important;
+        text-align: center;
+    }
+}
+
+@media (max-height: 720px) {
+    .hero-image {
+        background-image: url(../img/welcome-banner-centered.jpg);
+    }
+
+    .hero-text {
+        position: absolute center;
+        top: 12%;
+        left: 1%;
+        width: 98%;
+        margin: 0;
+        padding: 0 !important;
+        text-align: center;
+    }
 }
 
 /************

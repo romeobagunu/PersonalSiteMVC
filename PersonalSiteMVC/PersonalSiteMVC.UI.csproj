@@ -149,6 +149,7 @@
     <Content Include="Content\assets\img\portfolio\dragon.jpg" />
     <Content Include="Content\assets\img\profile-pic.jpg" />
     <Content Include="Content\assets\img\scott-webb-qauaqihMwpc-unsplash.jpg" />
+    <Content Include="Content\assets\img\welcome-banner-centered.jpg" />
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\vendor\aos\aos.css" />
     <Content Include="Content\assets\vendor\aos\aos.js" />
@@ -192,6 +193,7 @@
     <Content Include="Content\assets\vendor\swiper\swiper-bundle.min.css" />
     <Content Include="Content\assets\vendor\swiper\swiper-bundle.min.js" />
     <Content Include="Content\assets\vendor\waypoints\noframework.waypoints.js" />
+    <Content Include="Content\assets\img\welcome-banner.jpg" />
     <Content Include="_Archive\OriginalContent\bootstrap-theme.css" />
     <Content Include="_Archive\OriginalContent\bootstrap-theme.min.css" />
     <Content Include="_Archive\OriginalContent\bootstrap.css" />
