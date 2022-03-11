@@ -178,6 +178,36 @@ p {
 *** RESUME ***
 **************/
 
+#resume {
+    padding-bottom: 0;
+}
+
+.resume .resume-title {
+    font-weight: 500;
+}
+
+.resume .resume-item {
+    border-left: 1px solid #222;
+}
+
+.resume .resume-item::before {
+    border: 1px solid #222;
+}
+
+    .resume .resume-item h4 {
+        font-weight: 400;
+        color: #222;
+    }
+
+    .resume .resume-item h5 {
+        color: #777;
+        background: none;
+    }
+    .resume .resume-item p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
 #resume-hero-mini {
     height: 300px;
     background-image: url(../img/mini-banner.jpg);
@@ -197,7 +227,7 @@ p {
 
 #resume-download h2 {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 500;
     color: #333333;
     padding-bottom: 10px;
 }
@@ -209,12 +239,12 @@ p {
 #download-btn {
     background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.8), rgba(255, 167, 116, 0.8));
     color: #FFF;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 300;
     text-align: center;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 7px 20px;
     margin-top: 50px;
 }
 
