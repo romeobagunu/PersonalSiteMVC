@@ -132,6 +132,7 @@
     <Content Include="Content\assets\css\style.css" />
     <Content Include="Content\assets\img\about-banner.jpg" />
     <Content Include="Content\assets\img\apple-touch-icon.png" />
+    <Content Include="Content\assets\img\bio-pic.jpg" />
     <Content Include="Content\assets\img\classmates\Austin.jpg" />
     <Content Include="Content\assets\img\classmates\Ben.jpg" />
     <Content Include="Content\assets\img\classmates\Connor.jpg" />
@@ -149,7 +150,6 @@
     <Content Include="Content\assets\img\mini-banner.jpg" />
     <Content Include="Content\assets\img\portfolio\alpha.jpg" />
     <Content Include="Content\assets\img\portfolio\dragon.jpg" />
-    <Content Include="Content\assets\img\profile-pic.jpg" />
     <Content Include="Content\assets\img\scott-webb-qauaqihMwpc-unsplash.jpg" />
     <Content Include="Content\assets\img\welcome-banner-centered.jpg" />
     <Content Include="Content\assets\js\main.js" />

@@ -28,12 +28,13 @@
 
 .hero-btn {
     background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.6), rgba(255, 167, 116, 0.6));
-    color: #E9E9E9;
+    color: #FFF;
     font-size: 1.3em;
     font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 5px;
     text-align: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
     .hero-btn:hover {
@@ -142,6 +143,11 @@ p {
 
 #about-hero {
     background-image: url(../img/about-banner.jpg);
+}
+
+#bio-pic {
+    border-radius: 50%;
+    height: 300px;
 }
 
 #accordion h3 {
