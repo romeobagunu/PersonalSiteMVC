@@ -8,22 +8,6 @@
     padding: 15px 0;
 }
 
-/***********
-*** HOME ***
-************/
-
-.hero-image {
-    height: 100vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#index-hero {
-    background-image: url(../img/welcome-banner.jpg);
-}
-
 .hero-text {
     position: absolute;
     left: 10%;
@@ -52,9 +36,37 @@
     text-align: center;
 }
 
-.hero-btn:hover {
-    color: #fff;
-    border: 1px solid #fff;
+    .hero-btn:hover {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+@media (max-height: 720px) {
+    .hero-text {
+        position: absolute center;
+        top: 50%;
+        left: 1%;
+        width: 98%;
+        margin: 0;
+        padding: 0 !important;
+        text-align: center;
+    }
+}
+
+/***********
+*** HOME ***
+************/
+
+.hero-image {
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#index-hero {
+    background-image: url(../img/welcome-banner.jpg);
 }
 
 @media (max-width: 992px) {
@@ -62,7 +74,7 @@
         background-image: url(../img/welcome-banner-centered.jpg);
     }
 
-    .hero-text {
+    div#index-hero div.hero-text {
         position: absolute center;
         top: 15%;
         left: 1%;
@@ -74,11 +86,11 @@
 }
 
 @media (max-height: 720px) {
-    .hero-image {
+    #index-hero {
         background-image: url(../img/welcome-banner-centered.jpg);
     }
 
-    .hero-text {
+    div#index-hero div.hero-text {
         position: absolute center;
         top: 12%;
         left: 1%;
@@ -92,6 +104,10 @@
 /************
 *** ABOUT ***
 *************/
+
+#about-hero {
+    background-image: url(../img/about-banner.jpg);
+}
 
 #accordion h3 {
     cursor: pointer;

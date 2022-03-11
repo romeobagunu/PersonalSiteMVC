@@ -130,6 +130,7 @@
   <ItemGroup>
     <Content Include="Content\assets\css\custom.css" />
     <Content Include="Content\assets\css\style.css" />
+    <Content Include="Content\assets\img\about-banner.jpg" />
     <Content Include="Content\assets\img\apple-touch-icon.png" />
     <Content Include="Content\assets\img\classmates\Austin.jpg" />
     <Content Include="Content\assets\img\classmates\Ben.jpg" />
