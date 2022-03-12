@@ -38,9 +38,8 @@
     background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.6), rgba(255, 167, 116, 0.6));
     color: #FFF;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
-    border: 1px solid #E8E8E8;
     border-radius: 5px;
     padding: 10px 20px;
 }
@@ -48,7 +47,6 @@
     .hero-btn:hover {
         background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.85), rgba(255, 167, 116, 0.85));
         color: #fff;
-        border: 1px solid #fff;
     }
 
 
