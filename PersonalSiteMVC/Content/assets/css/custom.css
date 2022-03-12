@@ -19,12 +19,13 @@
 .hero-text {
     position: absolute;
     left: 10%;
-    top: 57%;
+    top: 55%;
 }
 
     .hero-text h1 {
         color: #fff;
         font-family: "Cormorant Garamond";
+        margin-bottom: 0;
     }
 
     .hero-text h2 {
