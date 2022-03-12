@@ -315,6 +315,19 @@ p {
     max-width: 310px;
 }
 
+@media (max-height: 720px) {
+    #portfolio-hero-mini {
+        height: 175px;
+    }
+
+        #portfolio-hero-mini .hero-text {
+            position: absolute;
+            left: 10%;
+            width: 80%;
+            top: 85px;
+        }
+}
+
 /**************
 *** CONTACT ***
 ***************/
@@ -386,6 +399,7 @@ fieldset {
             width: 80%;
             top: 85px;
         }
+
     #contact-btn {
         font-size: 1em;
     }
