@@ -229,13 +229,13 @@ p {
         color: #FFF;
     }
 
-#portfolio-hero-mini {
+#about-hero-mini {
     height: 200px;
     background-image: url(../img/mini-banner.jpg);
     background-size: cover;
 }
 
-    #portfolio-hero-mini .hero-text {
+    #about-hero-mini .hero-text {
         position: absolute;
         left: 10%;
         width: 80%;
@@ -366,6 +366,11 @@ p {
     min-height: 100vh;
 }
 
+
+#dragon {
+    max-width: 310px;
+}
+
 #portfolio-hero-mini {
     height: 300px;
     background-image: url(../img/mini-banner.jpg);
@@ -378,10 +383,6 @@ p {
         width: 80%;
         top: 45%;
     }
-
-#dragon {
-    max-width: 310px;
-}
 
 @media (max-height: 720px) {
     #portfolio-hero-mini {
