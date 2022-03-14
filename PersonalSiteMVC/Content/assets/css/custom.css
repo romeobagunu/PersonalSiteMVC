@@ -118,13 +118,14 @@
 
 .section-title h2 {
     font-family: "Cormorant Garamond", Garamond;
+    font-weight: 500;
 }
 
     .section-title h2::after {
-        width: 40%;
+        width: 60%;
         height: 3px;
         position: absolute;
-        left: 30%;
+        left: 20%;
         background: linear-gradient(to bottom right, #ffa774, #8698e3);
     }
 
