@@ -2,11 +2,50 @@
 *** SITE-WIDE ***
 *****************/
 
+/* NAVBAR */
+
 #header {
-    background: rgba(233, 232, 230, 0.7);
+    background: rgba(255, 255, 255, 0.75);
     z-index: 997;
     padding: 15px 0;
 }
+
+#header .logo a {
+    color: #222;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar > ul > li > a,
+.navbar > ul > li > a:focus {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+    .navbar > ul > li > a:before {
+        height: 1px;
+        background-color: #8698e3;
+    }
+
+.header-social-links a {
+    color: #777;
+}
+
+    .header-social-links a:hover {
+        color: #8698e3;
+    }
+
+.mobile-nav-toggle {
+    color: #777;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+    color: #8698e3;
+}
+
+/* HEROES */
 
 .hero-image {
     height: 100vh;
@@ -74,6 +113,8 @@
         text-align: center;
     }
 }
+
+/* TEXT */
 
 .section-title h2 {
     font-family: "Cormorant Garamond", Garamond;
@@ -358,12 +399,12 @@ p {
     padding: 0 5%;
 }
 
-.contact-entry .form-control {
-    font-weight: 400;
-    color: #222;
-    font-size: 18px;
-    font-family: "Poppins", sans-serif;
-}
+    .contact-entry .form-control {
+        font-weight: 400;
+        color: #222;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+    }
 
 fieldset {
     text-align: center;
