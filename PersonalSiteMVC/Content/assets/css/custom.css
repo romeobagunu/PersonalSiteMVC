@@ -138,6 +138,33 @@ p {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/* FOOTER */
+
+#footer {
+    background: rgba(200, 200, 200, 0.25);
+    color: #333;
+    font-size: 0.85em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+    #footer .credits {
+        font-size: 0.8em;
+    }
+
+    #footer .credits a {
+        color: #8698e3;
+    }
+
+.back-to-top {
+    background: rgba(77, 77, 77, 0.25);
+}
+
+    .back-to-top:hover {
+        background: #8698e3;
+    }
+
 /***********
 *** HOME ***
 ************/
