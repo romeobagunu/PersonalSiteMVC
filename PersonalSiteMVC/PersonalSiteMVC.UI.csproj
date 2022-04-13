@@ -133,9 +133,11 @@
     <Content Include="Content\assets\img\about-banner.jpg" />
     <Content Include="Content\assets\img\apple-touch-icon.png" />
     <Content Include="Content\assets\img\bio-pic.jpg" />
+    <Content Include="Content\assets\img\classmates\Alex.jpg" />
     <Content Include="Content\assets\img\classmates\Austin.jpg" />
     <Content Include="Content\assets\img\classmates\Ben.jpg" />
     <Content Include="Content\assets\img\classmates\Connor.jpg" />
+    <Content Include="Content\assets\img\classmates\Enrique.jpg" />
     <Content Include="Content\assets\img\classmates\Ian.jpg" />
     <Content Include="Content\assets\img\classmates\Jazmine.jpg" />
     <Content Include="Content\assets\img\classmates\Justin.jpg" />
