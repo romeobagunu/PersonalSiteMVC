@@ -148,10 +148,11 @@
     <Content Include="Content\assets\img\classmates\Placeholder.png" />
     <Content Include="Content\assets\img\classmates\Sean.jpg" />
     <Content Include="Content\assets\img\classmates\Zak.jpg" />
-    <Content Include="Content\assets\img\portfolio\dragon.jpg" />
     <Content Include="Content\assets\img\favicon.png" />
     <Content Include="Content\assets\img\mini-banner.jpg" />
-    <Content Include="Content\assets\img\portfolio\alpha.JPG" />
+    <Content Include="Content\assets\img\portfolio\alpha-portfolio.jpg" />
+    <Content Include="Content\assets\img\portfolio\dungeon-portfolio.jpg" />
+    <Content Include="Content\assets\img\portfolio\retrotech-portfolio.jpg" />
     <Content Include="Content\assets\img\scott-webb-qauaqihMwpc-unsplash.jpg" />
     <Content Include="Content\assets\img\welcome-banner-centered.jpg" />
     <Content Include="Content\assets\js\main.js" />
@@ -489,7 +490,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\assets\img\testimonials\" />
     <Folder Include="_Archive\PersonalSiteStatic\assets\img\testimonials\" />
   </ItemGroup>
   <ItemGroup>

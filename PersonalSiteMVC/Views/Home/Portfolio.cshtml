@@ -5,41 +5,65 @@
 <!-- Mini Portfolio Hero -->
 <div class="hero-image" id="portfolio-hero-mini">
     <div class="hero-text">
-        <h1 class="display-2">My portfolio.</h1>
+        <h1 class="display-2">My portfolio</h1>
     </div>
 </div>
 <!-- /end Mini Portfolio Hero -->
 <!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+<section id="portfolio">
 
-            <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                    <a href="http://alpha.romeobagunu.com" class="portfolio-details-lightbox" data-glightbox="type: external" title="Alpha">
-                        <img src="~/Content/assets/img/portfolio/alpha.jpg" class="img-fluid" alt="A screenshot from Alpha, my first website.">
-                        <div class="portfolio-info">
-                            <h4>Alpha | &alpha;</h4>
-                            <p>My first static website.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item" id="dragon">
-                <div class="portfolio-wrap">
-                    <a href="https://github.com/romeobagunu/DungeonApp" title="The Dragon Dungeon">
-                        <img src="~/Content/assets/img/portfolio/dragon.jpg" class="img-fluid" alt="A screenshot from The Dragon's' Dungeon, my first C# Console App.">
-                        <div class="portfolio-info">
-                            <h4>The Dragon's Dungeon</h4>
-                            <p>My first C# Console App.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
+    <div class="portfolio-dungeon rounded shadow" data-aos="fade-up" data-aos-delay="200">
+        <img src="~/Content/assets/img/portfolio/dungeon-portfolio.jpg" alt="Dragon logo" class="portfolio-img-sm" />
+        <div class="portfolio-text">
+            <h2>Dragon's Dungeon (C# Console App)</h2>
+            <hr />
+            <p>
+                Features: Branches, Loops, Custom Class Library with Inheritance, Custom Methods for Combat Calculations.
+            </p>
+            <a href="https://github.com/romeobagunu/DungeonApp" target="_blank" class="btn btn-outline-dark">View GitHub Repo</a>
         </div>
-
     </div>
+
+    <div class="portfolio-retrotech rounded shadow" data-aos="fade-up" data-aos-delay="200">
+        <img src="~/Content/assets/img/portfolio/retrotech-portfolio.jpg" alt="Retrotech logo" class="portfolio-img-lg" />
+        <div class="portfolio-text">
+            <h2>RetroTech (MVC eCommerce App)</h2>
+            <hr />
+            <div class="row my-3">
+                <div class="col-md-6">
+                    <ul class="my-0">
+                        <li>Database integration with Entity Framework</li>
+                        <li>Full CRUD for Products and Categories</li>
+                        <li>Products Page with Pagination, Filtering</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="my-0">
+                        <li>Session-based Shopping Cart</li>
+                        <li>Authentication with Identity Samples</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="http://retrotech.romeobagunu.com" target="_blank" class="btn btn-outline-dark my-3">View Subdomain</a>
+        </div>
+    </div>
+
+    <div class="portfolio-alpha rounded shadow" data-aos="fade-up" data-aos-delay="200">
+        <img src="~/Content/assets/img/portfolio/alpha-portfolio.jpg" alt="Alpha logo" class="portfolio-img-sm" />
+        <div class="portfolio-text">
+            <h2>Alpha (Static Website)</h2>
+            <p>A mock-up website for learning DOTA 2.</p>
+            <a href="http://alpha.romeobagunu.com" target="_blank" class="btn btn-outline-dark">View Subdomain</a>
+        </div>
+    </div>
+
+    <div class="portfolio-alpha rounded shadow" data-aos="fade-up" data-aos-delay="200">
+        <img src="~/Content/assets/img/classmates/Placeholder.png" alt="Placeholder logo" class="portfolio-img-sm"/>
+        <div class="portfolio-text">
+            <h2>ToDo (React App)</h2>
+            <p>Coming soon!</p>
+        </div>
+    </div>
+
 </section>
 <!-- End Portfolio Section -->

@@ -10,11 +10,11 @@
     padding: 15px 0;
 }
 
-#header .logo a {
-    color: #222;
-    font-weight: 300;
-    font-family: "Open Sans", sans-serif;
-}
+    #header .logo a {
+        color: #222;
+        font-weight: 300;
+        font-family: "Open Sans", sans-serif;
+    }
 
 .navbar > ul > li > a,
 .navbar > ul > li > a:focus {
@@ -153,9 +153,9 @@ p {
         font-size: 0.8em;
     }
 
-    #footer .credits a {
-        color: #8698e3;
-    }
+        #footer .credits a {
+            color: #8698e3;
+        }
 
 .back-to-top {
     background: rgba(77, 77, 77, 0.25);
@@ -349,7 +349,6 @@ p {
 *** CLASSMATES ***
 ******************/
 .links {
-
 }
 
 .classmates {
@@ -374,7 +373,7 @@ p {
     border-radius: 50%;
 }
 
-@media (max-width: 1285px)  {
+@media (max-width: 1285px) {
 
     .classmate {
         display: block;
@@ -383,7 +382,6 @@ p {
         min-width: 250px;
         margin: 2em auto;
     }
-
 }
 
 /****************
@@ -392,12 +390,94 @@ p {
 
 #portfolio {
     min-height: 100vh;
+    padding: 0;
 }
 
-
-#dragon {
-    max-width: 310px;
+.portfolio-dungeon {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 3em auto;
+    background: #eee;
+    display: flex;
+    align-items: center;
 }
+
+    .portfolio-dungeon .portfolio-text {
+        text-align: left;
+        width: 74%;
+        display: inline-block;
+        padding: 1em;
+        padding-left: 2em;
+        margin: 0;
+    }
+
+.portfolio-img-sm {
+    display: inline-block;
+    max-width: 512px;
+    width: 25%;
+    height: auto;
+    margin: 0;
+    min-width: 160px;
+}
+
+@media (max-width: 992px) {
+    .portfolio-dungeon {
+        width: 100%;
+        max-width: 900px;
+        margin: 3em auto;
+        background: #eee;
+    }
+
+        .portfolio-dungeon .portfolio-text {
+            width: 49%;
+        }
+
+        .portfolio-dungeon .portfolio-img-sm {
+            width: 50%;
+        }
+}
+
+.portfolio-retrotech {
+    width: 100%;
+    max-width: 900px;
+    margin: 3em auto;
+    text-align: center;
+    background: #eee;
+}
+
+    .portfolio-retrotech .portfolio-text {
+        padding: 3em;
+    }
+
+        .portfolio-retrotech .portfolio-text p, .portfolio-retrotech .portfolio-text li {
+            text-align: left;
+        }
+
+.portfolio-img-lg {
+    max-width: 1024px;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-alpha {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 3em auto;
+    background: #eee;
+    display: flex;
+    align-items: center;
+}
+
+    .portfolio-alpha .portfolio-text {
+        text-align: left;
+        width: 74%;
+        display: inline-block;
+        padding: 1em;
+        padding-left: 2em;
+        margin: 0;
+    }
 
 #portfolio-hero-mini {
     height: 300px;
@@ -409,6 +489,7 @@ p {
         position: absolute;
         left: 10%;
         width: 80%;
+        text-align: center;
         top: 45%;
     }
 
