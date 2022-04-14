@@ -75,7 +75,7 @@
     }
 
 .hero-btn {
-    background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.6), rgba(255, 167, 116, 0.6));
+    background: linear-gradient(to bottom right, rgba(134, 152, 227, 0.8), rgba(255, 167, 116, 0.8));
     color: #FFF;
     font-size: 1.3em;
     font-weight: 300;
@@ -218,6 +218,7 @@ p {
     height: 300px;
 }
 
+/*
 #accordion h3 {
     cursor: pointer;
     background: linear-gradient(to right, #8698e3, #ffa774);
@@ -228,6 +229,50 @@ p {
     #accordion h3:hover {
         color: #FFF;
     }
+ */
+
+.skillsContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.skills {
+    width: 30%;
+    display: inline-block;
+    background: linear-gradient(to bottom right, #fefefe, #eee);
+    min-height: 290px;
+    padding: 2em;
+    /*background: #ffa774;*/
+    color: #222;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+/*
+    .skills:nth-of-type(2) {
+        background:#74ccff;
+    }
+
+    .skills:nth-of-type(3) {
+        background: #8698e3;
+    }
+*/
+
+@media (max-width: 992px) {
+    .skillsContainer {
+        display: block;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills {
+        width: 50%;
+        margin: 2em auto;
+        display: block;
+    }
+}
 
 #about-hero-mini {
     height: 200px;

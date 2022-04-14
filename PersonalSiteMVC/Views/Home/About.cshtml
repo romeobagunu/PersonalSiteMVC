@@ -39,34 +39,50 @@
 <!-- End About Section -->
 <!-- ======= Technical Skills Section ======= -->
 <section class="pt-0" data-aos="fade-up">
-    <div class="container">
-        <div class="section-title">
-            <h2>Technical Skills</h2>
+    <div class="section-title">
+        <h2>Technical Skills</h2>
+    </div>
+
+    <div class="skillsContainer">
+        <div class="skills">
+            <strong>Front End:</strong>
+            <ul>
+                <li>ReactJS</li>
+                <li>JavaScript, jQuery, jQueryUI</li>
+                <li>Bootstrap</li>
+                <li>Responsive/Mobile Development</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+            </ul>
         </div>
-        <div class="row">
-            <div class="col-lg-4 my-3">
-                <h4>Summary</h4>
-                <strong>Front End:</strong> HTML5, JavaScript, jQuery, jQueryUI, CSS3, Responsive/Mobile Web Development,
-                Bootstrap, ReactJS
-                <br />
-                <strong>Middle Tier:</strong> C#.NET, ASP.NET, LINQ, MVC, EF, ASP.NET Web API
-                <br />
-                <strong>Back End:</strong> ADO.NET, SQL, SQL Server
-                <br />
-                <strong>Tools:</strong> Visual Studio, Visual Studio Code, SSMS
-            </div>
-            <div class="col-lg-8 my-3">
-                <div id="accordion">
-                    <h3>HTML / CSS</h3>
-                    <p>My first experience with Front End development was Alpha, a static web application made entirely from scratch. In that code, I used the basics of HTML and CSS to accomplish very simple page layouts from a provided wireframe. I enjoyed designing the website, drawing much inspiration from Steam and DOTA2. (The concept behind the project was a small company which teaches courses about how to play DOTA.) Through the trial and error of putting this first project together, I learned how to handle the strain of troubleshooting and gained a greater appreciation for development tools learned later in the track.</p>
-                    <h3>C#</h3>
-                    <p>Probably my favorite portion of the track was learning how to create basic Console Apps in VS. The assigned project was to use C# to design a Dungeon game where a player must survive a gauntlet of monster battles to beat the game. The Dragon Dungeon I created uses looping structures to introduce random encounters in a succession of rooms which the player progresses through. Combat methods and custom enemy classes were designed to complement different paths to victory, where the player can choose their Race (Human, Elf, or Dwarf) and different stat upgrades throughout the game. Logic was also incorporated into a mini-boss fight with a Troll and a final boss fight against a Dragon. I would encourage you to take a look at the code; a link to the Github repo is available on my Portfolio page!</p>
-                    <h3>T-SQL (SSMS)</h3>
-                    <p>Much like my experience in learning C#, I found that the logical challenge of querying data was a stimulating and fulfilling task. Prior to learning MVC, we spent a week learning the basics of writing queries and designing databases in SSMS. I am excited to apply this background knowledge in the MVC design architecture!</p>
-                </div>
-            </div>
+
+        <div class="skills">
+            <strong>Middle Tier:</strong>
+            <ul>
+                <li>C#.NET</li>
+                <li>ASP.NET</li>
+                <li>LINQ</li>
+                <li>EF</li>
+                <li>ASP.NET Web REST API</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <strong>Back End:</strong>
+            <ul>
+                <li>ADO.NET</li>
+                <li>SQL & SQL Server</li>
+            </ul>
+            <strong>Tools:</strong>
+            <ul>
+                <li>Visual Studio & VS Code</li>
+                <li>SSMS</li>
+                <li>FileZilla</li>
+                <li>Postman</li>
+            </ul>
         </div>
     </div>
+
 </section>
 <!-- End Technical Skills section -->
 <!-- Mini Portfolio Hero Hero -->
@@ -77,14 +93,15 @@
     </div>
 </div>
 <!-- /end Mini Portfolio Hero -->
-
-@section scripts{
-    <script>
-        $(function () {
-            $("#accordion").accordion({
-                heightStyle: "content",
-                collapsible: true
+@*
+    @section scripts{
+        <script>
+            $(function () {
+                $("#accordion").accordion({
+                    heightStyle: "content",
+                    collapsible: true
+                });
             });
-        });
-    </script>
-}
+        </script>
+    }
+*@
